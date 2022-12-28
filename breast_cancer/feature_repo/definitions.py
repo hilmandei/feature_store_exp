@@ -1,10 +1,11 @@
 # Importing dependencies
-# from google.protobuf.duration_pb2 import Duration
 from datetime import timedelta
 from feast import Entity, FileSource, Field, FeatureView
-from feast.types import Float32, Float64, Int64, ValueType
+from feast.types import Float64, Int64, ValueType
 
-abs_path = "/Users/hilman/Documents/file_python/DS_Project/feast_feature_store/feast_tutorial/breast_cancer/feature_repo/data/"
+abs_path = "/Users/hilman/Documents/file_python/DS_Project/feast_feature_store/" \
+           "feast_tutorial/breast_cancer/feature_repo/data/"
+
 # Declaring an entity for the dataset
 patient = Entity(
     name="patient_id", 
