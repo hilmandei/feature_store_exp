@@ -42,9 +42,9 @@ feast_features = [
 
 # Getting the latest features
 features = store.get_online_features(
-    features=feast_features,    
-    entity_rows=[{"patient_id": 568}, {"patient_id": 567}]
-).to_df()
+            features=feast_features,
+            entity_rows=[{"patient_id": 568},
+                         {"patient_id": 567}]).to_df()
 
 # Converting the features to a DataFrame
 features_df = features
