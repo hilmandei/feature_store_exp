@@ -1,12 +1,11 @@
-This is the complete feature store that was built for [Feature Storage for ML with Feast: Part 1 – Building a Local Feature Store Infrastructure for Training and Prediction](https://kedion.medium.com/creating-a-feature-store-with-feast-part-1-37c380223e2f?source=user_profile---------0-------------------------------).
+## Feature Store
 
-The feature store by itself is located in `breast_cancer`. The Jupyter notebook and Python scripts in the root directory of the repo are intended to help you prepare data, fetch features, train a model, and do inference.
+This Repo will be used in order to explore the Feature Store with Feast.
+<br> Official Docs here <a href= "https://docs.feast.dev/"> here </a>
 
-Note that the data files in `breast_cancer/data` will very likely be outdated by the time you see this repository. After cloning the repo and before using the code, make sure to:
+Blogs to explore about Feature store and decision when to use <a href="https://towardsdatascience.com/do-you-really-need-a-feature-store-e59e3cc666d3"> here </a> 
 
-1. Run the Jupyter notebook `feast_data_preparation.ipynb` in the repo's root path to generate a toy dataset for the feature store.
-2. Move the five generated files - `data_df1.parquet`, `data_df2.parquet`, `data_df3.parquet`, `data_df4.parquet`, and `target_df.parquet` - to `breast_cancer/data`.
-
-Additionally, change the paths provided to to the class `FileSource` in `breast_cancer/definitions.py`
-
-To find out more about how to use Feast, read [official Feast docs](https://docs.feast.dev/) and also [Feature Storage for ML with Feast: Part 1 – Building a Local Feature Store Infrastructure for Training and Prediction](https://kedion.medium.com/).
+In this exploration, im using this blog as references
+<li>Part 1 <a href="https://kedion.medium.com/creating-a-feature-store-with-feast-part-1-37c380223e2f"> here </a></li>
+<li>Part 2 <a href="https://kedion.medium.com/feature-storage-for-ml-with-feast-part-2-34df1971a8d3"> here </a></li>
+<li>Part 3 <a href="https://kedion.medium.com/feature-storage-for-ml-with-feast-a061899fc4a2"> here </a></li>
